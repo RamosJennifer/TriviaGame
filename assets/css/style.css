@@ -1,0 +1,42 @@
+body {
+    width:100%;
+    background-image: url("../images/Lilo&StitchBackgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+header { 
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+}
+
+.container {
+    /* height: 500px; */
+    /* max-width: 960px; */
+    /* width: 100%; */
+    width:auto;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    /* background-color: #2972b6; */
+    clear: both;
+}
+
+footer {
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+    min-width: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
