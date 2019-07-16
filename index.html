@@ -5,10 +5,9 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
-    <script src='assets/javascript/app.js'></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -19,13 +18,16 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p>How Much Do You Actually Remember from Disney's Lilo and Stitch?</p>
+                <p>How Much Do You Remember from Disney's Lilo and Stitch?</p>
             </div>
 
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <button type="button" class="btn btn-primary btn-lg START">START</button>
+                <button type="button" id="Start" class="btn btn-primary btn-lg">Start</button>
+                <div id="quiz"></div>
+                <button type="button" id="submit" class="btn btn-lg">Submit Quiz</button>
+                <div id="results"></div>
             </div>
         </div>
     </div>    
@@ -33,5 +35,8 @@
     <footer>
         <!-- <img src="assets/images/Lilo&StitchFooter.png" class="img-fluid" alt="Responsive image"> -->
     </footer>
+
+    <script src='assets/javascript/app.js'></script>
+    <script type=text/javascript></script>
 </body>
 </html>
